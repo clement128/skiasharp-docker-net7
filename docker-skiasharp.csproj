@@ -7,10 +7,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <ContainerImageName>docker-skiasharp-test</ContainerImageName>
+    <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="SkiaSharp" Version="2.88.3" />
+    <PackageReference Include="Microsoft.NET.Build.Containers" Version="0.3.2" />
   </ItemGroup>
 
 </Project>
